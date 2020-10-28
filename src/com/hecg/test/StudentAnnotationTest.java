@@ -22,7 +22,7 @@ public class StudentAnnotationTest {
 		for (int i = 0; i < fields.length; i++) {
 			// 获取每个属性上面的注解
 			Field field = fields[i];
-			Property property = field.getDeclaredAnnotation(Property.class);
+			Property property = field.getAnnotation(Property.class);
 			if (property == null) {
 				continue;
 			}
