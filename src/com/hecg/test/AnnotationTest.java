@@ -22,9 +22,10 @@ import java.lang.annotation.Target;
 }
 
 /**
- * 测试自定义注解
- * 
- * @author 玥来玥好
+ * 功能：测试自定义注解
+ *
+ * @author hecg
+ * @version 2020年11月10日 下午10:15:35
  */
 public class AnnotationTest {
 	@MyAnnotation(name = "hecg", age = 27, arrs = { "1", "2" })
