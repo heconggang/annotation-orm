@@ -21,6 +21,11 @@ import java.lang.annotation.Target;
 	String[]arrs();
 }
 
+/**
+ * 测试自定义注解
+ * 
+ * @author 玥来玥好
+ */
 public class AnnotationTest {
 	@MyAnnotation(name = "hecg", age = 27, arrs = { "1", "2" })
 	public static void add1() {
